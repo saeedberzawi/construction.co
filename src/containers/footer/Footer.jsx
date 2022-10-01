@@ -46,8 +46,8 @@ const Footer = () => {
               <p>(mob)+964 7510429521</p>
             </div>
             <div>
-              <a href=""></a>
-              <a href=""></a>
+              {/* <a href=""></a> */}
+              {/* <a href=""></a> */}
             </div>
           </div>
         </div>
