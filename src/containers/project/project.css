@@ -1,0 +1,107 @@
+.blog {
+  margin-top: 70px;
+  margin-left: 155px;
+  margin-bottom: 150px;
+}
+
+.blog__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog__section h4 {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 56px;
+  color: var(--color-text);
+}
+.blog__section--text {
+  width: 672px;
+  height: 56px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  text-align: center;
+  color: var(--color-text02);
+}
+
+.blog__towside {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  gap: 60px;
+}
+.blog__towside--part1,
+.blog__towside--part2 {
+  background-image: url(../../assets/blog1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 496px;
+  height: 467px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+  mix-blend-mode: normal;
+  border-radius: 20px;
+}
+.blog__towside--part2 {
+  background-image: url(../../assets/blog2.png);
+}
+
+.blog__towside--part1 h3,
+.blog__towside--part2 h3 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 34px;
+  /* identical to box height */
+  margin-top: 332px;
+  color: #ffffff;
+}
+
+.blog__towside--part1 p,
+.blog__towside--part2 p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 22px;
+}
+.blog__towside--part2 h3 {
+  margin-top: 234px;
+}
+.blog__towside--part2 button {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: var(--color-text03);
+  width: 202px;
+  height: 65px;
+  margin-top: 32px;
+  border: 1px solid #ffffff;
+  border-radius: 40px 5px;
+  background: none;
+  margin-left: auto;
+  margin-right: auto;
+}

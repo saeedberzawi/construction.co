@@ -1,0 +1,59 @@
+.news {
+  margin: 140px auto 0;
+}
+.news h4 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-text);
+  width: 466px;
+  height: 112px;
+  margin: 0 auto 0;
+}
+.news p {
+  width: 556px;
+  height: 56px;
+  left: 442px;
+  margin-top: 40px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--color-text02);
+  margin-left: auto;
+  margin-right: auto;
+}
+.news__btn {
+  width: 220px;
+  height: 56px;
+  margin-top: 40px;
+  background: var(--color-btn);
+  box-shadow: 0px 64.8148px 46.8519px rgba(24, 167, 185, 0.0759259),
+    0px 38.5185px 25.4815px rgba(24, 167, 185, 0.0607407),
+    0px 20px 13px rgba(24, 167, 185, 0.05),
+    0px 8.14815px 6.51852px rgba(24, 167, 185, 0.0392593),
+    0px 1.85185px 3.14815px rgba(24, 167, 185, 0.0240741);
+  border-radius: 40px 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news__btn button {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-text03);
+  background: none;
+  border: none;
+}

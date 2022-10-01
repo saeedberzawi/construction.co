@@ -1,0 +1,33 @@
+.brand__container {
+  width: 1070;
+  height: 180px;
+  border-radius: 150px;
+  margin-top: 14px;
+  margin-left: 135px;
+  margin-right: 135px;
+  background: var(--color-brand);
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cahse {
+  width: 137px;
+  height: 25.46px;
+}
+.asana {
+  width: 122px;
+  height: 24.08px;
+}
+.buzz {
+  width: 120px;
+  height: 19.85px;
+}
+.toggl {
+  width: 95px;
+  height: 32px;
+}
+.walmart {
+  width: 132.8px;
+  height: 32.13px;
+}

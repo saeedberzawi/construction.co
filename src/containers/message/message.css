@@ -1,0 +1,44 @@
+.mess {
+  background-image: url(../../assets/message.png);
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 939px;
+  margin-top: 140px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mess h4 {
+  height: 76px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 76px;
+  color: var(--color-text03);
+}
+.mess__imge {
+    margin-left:-941px ;
+}
+.mess__text {
+  width: 857px;
+  height: 336px;
+  left: 292px;
+  margin-top: 0px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-text03);
+  text-align:start;
+}
+.mess__imge02 {
+    margin-right:-941px ;
+}

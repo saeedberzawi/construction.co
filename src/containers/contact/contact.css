@@ -1,0 +1,90 @@
+.cont {
+  margin: 140px 0 0 135px;
+}
+.cont__sec01 h4 {
+  width: 303px;
+  height: 56px;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 56px;
+  /* identical to box height, or 104% */
+  color: var(--color-text);
+}
+.cont__sec01 p {
+  width: 672px;
+  height: 56px;
+  left: 384px;
+  margin: 30px auto 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  text-align: center;
+  color: var(--color-text02);
+}
+
+.cont__sec02 {
+  margin-top: 80px;
+  display: flex;
+}
+.cont__sec02--part__inp01 input,
+.cont__sec02--part__inp02 input,
+.cont__sec02--part__inp03 input,
+.cont__sec02--part__inp04 input {
+  width: 487px;
+  height: 64px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: var(--color-text);
+  text-align: inherit;
+  border: 1px solid #f4f4f4;
+  border-radius: 6.5px;
+  text-indent: 15px;
+}
+.cont__sec02--part__inp02 input,
+.cont__sec02--part__inp03 input,
+.cont__sec02--part__inp04 input {
+  background: #f9f9f9;
+  margin-top: 20px;
+}
+.cont__sec02--part__inp04 input {
+  height: 200px;
+  /* text-align: ; */
+}
+.cont__sec02--part button {
+  position: absolute;
+  width: 214px;
+  height: 64px;
+  margin-top: 30px;
+  background: var(--color-btn);
+  box-shadow: 0px 64.8148px 46.8519px rgba(24, 167, 185, 0.0759259),
+    0px 38.5185px 25.4815px rgba(24, 167, 185, 0.0607407),
+    0px 20px 13px rgba(24, 167, 185, 0.05),
+    0px 8.14815px 6.51852px rgba(24, 167, 185, 0.0392593),
+    0px 1.85185px 3.14815px rgba(24, 167, 185, 0.0240741);
+  border-radius: 40px 5px;
+  border: none;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+  letter-spacing: -0.5px;
+  color: var(--color-text03);
+}
+
+.cont__sec02 img {
+  width: 1200px;
+  height: 800px;
+  /* margin-top: 27px; */
+}
